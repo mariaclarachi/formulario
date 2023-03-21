@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+</head>
+<body>
+    <fieldset>
+        <label>Produto:</label>
+        <input type="text">
+        <br>
+        <label>Data de cadastro:</label>
+        <input type="date">
+        <br>
+        <label for="icategoria">Categoria:</label>
+        <select name="icategoria" id="icategoria">
+            <option value="L">Livros</option>
+            <option value="C">Cadernos</option>
+        </select>
+        <br>
+        <label>Peso:</label>
+        <input type="number">
+        <br>
+        <label>Situação:</label>
+        <input type="radio" name="rnovo" id="itpnovo" value="n">
+        <label for="itpnovo">Novo</label>
+
+        <input type="radio" name="rnovo" id="itpusado" value="u">
+        <label for="itpusado">Usado</label>
+        <br>
+        <label for="idescricao">Descrição:</label>
+        <br>
+        <textarea name="txtvoce" id="idescricao" cols="30" rows="10"></textarea>
+        <br>
+        <label for="iavaliacao">Avaliação:</label>
+        <input type="range" id="iavaliacao" min="0" max="10">
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Redefinir">
+</body>
+</html>
